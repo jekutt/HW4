@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Abc.Data.Common.DefinedEntityData">
+    <Position X="1" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\DefinedEntityData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Common.NamedEntityData">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\NamedEntityData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Common.UniqueEntityData">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\UniqueEntityData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Common.PeriodData">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>Common\PeriodData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Money.CurrencyData">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Money\CurrencyData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abc.Data.Quantity.MeasureData">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="Abc.Data.Common.DefinedEntityData" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="1.733" />
+        <Point X="1.875" Y="2.125" />
+        <Point X="3.88" Y="2.125" />
+        <Point X="3.88" Y="2.376" />
+        <Point X="3.875" Y="2.376" />
+        <Point X="3.875" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Quantity\MeasureData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
