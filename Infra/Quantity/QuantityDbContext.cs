@@ -5,11 +5,11 @@ namespace Abc.Infra.Quantity
 {
     public class QuantityDbContext : DbContext
     {
+        public DbSet<MeasureData> Measures { get; set; }
         public QuantityDbContext(DbContextOptions<QuantityDbContext> options)
             : base(options)
         {
         }
-        public DbSet<MeasureData> Measures { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
